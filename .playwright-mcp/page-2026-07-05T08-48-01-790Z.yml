@@ -1,0 +1,215 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Nuraya — beranda" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - text: Nur
+        - emphasis [ref=e5]: aya
+      - navigation "Navigasi utama" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Koleksi" [ref=e9] [cursor=pointer]:
+              - /url: "#koleksi"
+          - listitem [ref=e10]:
+            - link "Craftsmanship" [ref=e11] [cursor=pointer]:
+              - /url: "#craft"
+          - listitem [ref=e12]:
+            - link "Testimoni" [ref=e13] [cursor=pointer]:
+              - /url: "#testimoni"
+      - link "Belanja" [ref=e14] [cursor=pointer]:
+        - /url: "#koleksi"
+  - main [ref=e15]:
+    - region "Anggun di Setiap Langkahmu." [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: Koleksi Hijab Premium
+          - heading "Anggun di Setiap Langkahmu." [level=1] [ref=e20]:
+            - generic [ref=e22]: Anggun di
+            - generic [ref=e24]: Setiap
+            - emphasis [ref=e27]: Langkahmu.
+          - paragraph [ref=e28]: Voal ultrafine dan silk pilihan dengan jatuh kain yang anggun, warna timeless, dan kenyamanan yang menemanimu sepanjang hari.
+          - generic [ref=e29]:
+            - link "Jelajahi Koleksi" [ref=e30] [cursor=pointer]:
+              - /url: "#koleksi"
+            - link "Cerita Kami" [ref=e31] [cursor=pointer]:
+              - /url: "#craft"
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - strong [ref=e34]: 48+
+              - text: Pilihan Warna
+            - listitem [ref=e35]:
+              - strong [ref=e36]: 120rb
+              - text: Hijabers Puas
+            - listitem [ref=e37]:
+              - strong [ref=e38]: 4.9/5
+              - text: Rating Ulasan
+        - generic [ref=e39]:
+          - generic [ref=e43]:
+            - strong [ref=e44]: Nuraya
+            - generic [ref=e45]: Est. 2021 — Indonesia
+          - generic [ref=e46]:
+            - generic [ref=e47]: 4.9★
+            - text: dari 32.000+ ulasan
+    - complementary "Keunggulan Nuraya" [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e51]: Voal Premium ✦
+          - generic [ref=e52]: Jahit Tepi Rapi ✦
+          - generic [ref=e53]: Warna Timeless ✦
+          - generic [ref=e54]: Ringan & Adem ✦
+          - generic [ref=e55]: Ramah Kulit Sensitif ✦
+          - generic [ref=e56]: Dibuat di Indonesia ✦
+        - generic [ref=e57]:
+          - generic [ref=e58]: Voal Premium ✦
+          - generic [ref=e59]: Jahit Tepi Rapi ✦
+          - generic [ref=e60]: Warna Timeless ✦
+          - generic [ref=e61]: Ringan & Adem ✦
+          - generic [ref=e62]: Ramah Kulit Sensitif ✦
+          - generic [ref=e63]: Dibuat di Indonesia ✦
+    - region "Empat andalan yang selalu dicari" [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - paragraph [ref=e68]: Koleksi Pilihan
+            - heading "Empat andalan yang selalu dicari" [level=2] [ref=e69]:
+              - text: Empat andalan yang
+              - emphasis [ref=e70]: selalu dicari
+          - paragraph [ref=e71]: Dari voal harian hingga silk untuk momen istimewa — semua dengan jahit tepi halus dan warna yang tidak lekang waktu.
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - generic [ref=e76]: Best Seller
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - heading "Aurelia Voal" [level=3] [ref=e79]
+                - generic [ref=e80]: Voal Ultrafine
+              - generic [ref=e81]: Rp 89.000
+          - listitem [ref=e82]:
+            - generic [ref=e85]: New
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - heading "Sana Silk" [level=3] [ref=e88]
+                - generic [ref=e89]: Silk Ceruti
+              - generic [ref=e90]: Rp 129.000
+          - listitem [ref=e91]:
+            - generic [ref=e94]: Favorit
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - heading "Zahra Everyday" [level=3] [ref=e97]
+                - generic [ref=e98]: Voal Matte
+              - generic [ref=e99]: Rp 75.000
+          - listitem [ref=e100]:
+            - generic [ref=e103]: Limited
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - heading "Laila Grand" [level=3] [ref=e106]
+                - generic [ref=e107]: Silk Premium
+              - generic [ref=e108]: Rp 159.000
+    - region "Dibuat perlahan, dipakai lama" [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - paragraph [ref=e112]: Craftsmanship
+          - heading "Dibuat perlahan, dipakai lama" [level=2] [ref=e113]:
+            - text: Dibuat perlahan,
+            - emphasis [ref=e114]: dipakai lama
+          - paragraph [ref=e115]: Kami percaya hijab terbaik lahir dari proses yang tidak terburu-buru. Empat tahap ini kami jaga di setiap helainya.
+        - list [ref=e116]:
+          - listitem [ref=e117]:
+            - generic [ref=e118]: "01"
+            - generic [ref=e119]:
+              - heading "Kain Pilihan" [level=3] [ref=e120]
+              - paragraph [ref=e121]: Setiap lembar voal dan silk melewati kurasi ketat — hanya kain dengan serat halus, jatuhnya anggun, dan adem di kulit yang kami loloskan.
+          - listitem [ref=e122]:
+            - generic [ref=e123]: "02"
+            - generic [ref=e124]:
+              - heading "Pewarnaan Presisi" [level=3] [ref=e125]
+              - paragraph [ref=e126]: Palet warna dirancang bersama penata gaya agar tetap relevan bertahun-tahun — bukan sekadar mengikuti tren musiman.
+          - listitem [ref=e127]:
+            - generic [ref=e128]: "03"
+            - generic [ref=e129]:
+              - heading "Jahit Tepi Halus" [level=3] [ref=e130]
+              - paragraph [ref=e131]: Finishing baby hem dikerjakan penjahit berpengalaman sehingga tepi hijab rapi, tidak bergelombang, dan tahan lama.
+          - listitem [ref=e132]:
+            - generic [ref=e133]: "04"
+            - generic [ref=e134]:
+              - heading "Kontrol Kualitas Ganda" [level=3] [ref=e135]
+              - paragraph [ref=e136]: Sebelum sampai ke tanganmu, setiap hijab diperiksa dua kali — dari kerataan warna hingga kekuatan jahitan.
+    - region "Kata mereka yang sudah mencoba" [ref=e137]:
+      - generic [ref=e138]:
+        - generic [ref=e140]:
+          - paragraph [ref=e141]: Testimoni
+          - heading "Kata mereka yang sudah mencoba" [level=2] [ref=e142]:
+            - text: Kata mereka yang
+            - emphasis [ref=e143]: sudah mencoba
+        - generic [ref=e144]:
+          - figure "Alya Rahmadina Content Creator, Jakarta" [ref=e145]:
+            - generic [ref=e146]: “
+            - blockquote [ref=e147]: Voalnya beneran ringan dan nggak licin. Dipakai seharian tetap rapi tanpa perlu setrika ulang.
+            - generic [ref=e148]:
+              - generic [ref=e149]: AR
+              - generic [ref=e150]:
+                - generic [ref=e151]: Alya Rahmadina
+                - text: Content Creator, Jakarta
+          - figure "Nadia Safitri Arsitek, Bandung" [ref=e152]:
+            - generic [ref=e153]: “
+            - blockquote [ref=e154]: Warna-warnanya kalem dan gampang di-mix and match sama outfit kerja. Paket datang rapi banget.
+            - generic [ref=e155]:
+              - generic [ref=e156]: NS
+              - generic [ref=e157]:
+                - generic [ref=e158]: Nadia Safitri
+                - text: Arsitek, Bandung
+          - figure "Kirana Putri Dokter Gigi, Surabaya" [ref=e159]:
+            - generic [ref=e160]: “
+            - blockquote [ref=e161]: Kulitku sensitif, dan ini hijab pertama yang nggak bikin gatal di leher. Langsung repeat order tiga warna.
+            - generic [ref=e162]:
+              - generic [ref=e163]: KP
+              - generic [ref=e164]:
+                - generic [ref=e165]: Kirana Putri
+                - text: Dokter Gigi, Surabaya
+    - region "Dapatkan akses awal koleksi terbaru" [ref=e166]:
+      - generic [ref=e167]:
+        - paragraph [ref=e168]: Jadi yang Pertama
+        - heading "Dapatkan akses awal koleksi terbaru" [level=2] [ref=e169]:
+          - text: Dapatkan akses awal
+          - emphasis [ref=e170]: koleksi terbaru
+        - paragraph [ref=e171]: Plus voucher 10% untuk pembelian pertamamu. Tanpa spam — hanya kabar rilis warna baru dan penawaran khusus member.
+        - generic [ref=e172]:
+          - generic [ref=e173]: Alamat email
+          - textbox "Alamat email" [ref=e174]:
+            - /placeholder: Alamat email kamu
+          - button "Daftar" [ref=e175] [cursor=pointer]
+  - contentinfo [ref=e176]:
+    - generic [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - paragraph [ref=e180]:
+            - text: Nur
+            - emphasis [ref=e181]: aya
+          - paragraph [ref=e182]: Hijab premium dengan jatuh kain anggun dan warna timeless — dibuat dengan penuh perhatian di Indonesia.
+        - navigation "Tautan belanja" [ref=e183]:
+          - heading "Belanja" [level=3] [ref=e184]
+          - list [ref=e185]:
+            - listitem [ref=e186]:
+              - link "Semua Koleksi" [ref=e187] [cursor=pointer]:
+                - /url: "#koleksi"
+            - listitem [ref=e188]:
+              - link "Voal Series" [ref=e189] [cursor=pointer]:
+                - /url: "#koleksi"
+            - listitem [ref=e190]:
+              - link "Silk Series" [ref=e191] [cursor=pointer]:
+                - /url: "#koleksi"
+        - navigation "Tautan bantuan" [ref=e192]:
+          - heading "Bantuan" [level=3] [ref=e193]
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - link "Panduan Ukuran" [ref=e196] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e197]:
+              - link "Pengiriman" [ref=e198] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e199]:
+              - link "Kontak" [ref=e200] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e201]:
+        - generic [ref=e202]: © 2026 Nuraya. Semua hak dilindungi.
+        - generic [ref=e203]: Dibuat dengan ♥ di Indonesia
+  - alert [ref=e204]
