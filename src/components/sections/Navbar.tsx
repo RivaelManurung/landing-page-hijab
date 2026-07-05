@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { NAV_LINKS } from "@/lib/content";
+import { WA_GENERAL } from "@/lib/shop";
 
 const SOLID_THRESHOLD_PX = 24;
 
@@ -32,8 +33,13 @@ export function Navbar() {
             ))}
           </ul>
         </nav>
-        <a className="nav__cta" href="#koleksi">
-          Belanja
+        <a
+          className="nav__cta"
+          href={WA_GENERAL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Belanja via WA
         </a>
       </div>
     </header>

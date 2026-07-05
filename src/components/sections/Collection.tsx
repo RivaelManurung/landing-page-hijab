@@ -1,8 +1,10 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { useReveal } from "@/hooks/useReveal";
 import { PRODUCTS } from "@/lib/content";
+import { waProduct } from "@/lib/shop";
 
 export function Collection() {
   const scope = useRef<HTMLElement>(null);
@@ -34,22 +36,35 @@ export function Collection() {
         <ul className="collection__grid" data-reveal-group>
           {PRODUCTS.map((product) => (
             <li className="product" key={product.name} data-reveal>
-              <div className="product__media">
-                <div
-                  className="product__cloth"
-                  style={{ "--cloth": product.cloth } as React.CSSProperties}
-                  aria-hidden="true"
-                />
-                <div className="product__arch" aria-hidden="true" />
-                <span className="product__tag">{product.tag}</span>
-              </div>
-              <div className="product__body">
-                <div>
-                  <h3 className="product__name">{product.name}</h3>
-                  <span className="product__fabric">{product.fabric}</span>
+              <a
+                href={waProduct(product)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="product__link"
+                aria-label={`Pesan ${product.name} via WhatsApp`}
+              >
+                <div className="product__media">
+                  <Image
+                    className="product__img"
+                    src={product.image}
+                    alt={product.alt}
+                    fill
+                    sizes="(min-width: 1024px) 22vw, (min-width: 640px) 45vw, 92vw"
+                  />
+                  <div className="product__arch" aria-hidden="true" />
+                  <span className="product__tag">{product.tag}</span>
+                  <span className="product__quick" aria-hidden="true">
+                    Pesan via WhatsApp
+                  </span>
                 </div>
-                <span className="product__price">{product.price}</span>
-              </div>
+                <div className="product__body">
+                  <div>
+                    <h3 className="product__name">{product.name}</h3>
+                    <span className="product__fabric">{product.fabric}</span>
+                  </div>
+                  <span className="product__price">{product.price}</span>
+                </div>
+              </a>
             </li>
           ))}
         </ul>

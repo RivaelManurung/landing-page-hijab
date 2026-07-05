@@ -2,6 +2,7 @@
 
 import { useRef, useState, type FormEvent } from "react";
 import { useReveal } from "@/hooks/useReveal";
+import { WA_GENERAL } from "@/lib/shop";
 
 export function CtaSection() {
   const scope = useRef<HTMLElement>(null);
@@ -52,6 +53,18 @@ export function CtaSection() {
             </button>
           </form>
         )}
+        <p className="cta__or" data-reveal>
+          atau langsung pesan lewat
+        </p>
+        <a
+          className="btn btn--wa"
+          href={WA_GENERAL}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-reveal
+        >
+          Chat &amp; Pesan via WhatsApp
+        </a>
       </div>
     </section>
   );

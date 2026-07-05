@@ -1,6 +1,13 @@
 import { FOOTER_LINKS } from "@/lib/content";
+import { WA_GENERAL, MARKETPLACES } from "@/lib/shop";
 
 const CURRENT_YEAR = 2026;
+
+const SHOP_LINKS = [
+  { label: "Pesan via WhatsApp", href: WA_GENERAL },
+  { label: "Shopee Official", href: MARKETPLACES.shopee },
+  { label: "Tokopedia Official", href: MARKETPLACES.tokopedia },
+] as const;
 
 export function Footer() {
   return (
@@ -26,12 +33,18 @@ export function Footer() {
               ))}
             </ul>
           </nav>
-          <nav aria-label="Tautan bantuan">
-            <h3>Bantuan</h3>
+          <nav aria-label="Hubungi dan pesan">
+            <h3>Hubungi & Pesan</h3>
             <ul>
-              {FOOTER_LINKS.bantuan.map((link) => (
+              {SHOP_LINKS.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href}>{link.label}</a>
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {link.label}
+                  </a>
                 </li>
               ))}
             </ul>

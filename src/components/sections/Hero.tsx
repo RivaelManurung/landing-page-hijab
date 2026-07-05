@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { gsap, useGSAP, MOTION_OK, MOTION_REDUCED } from "@/lib/gsap";
 import { HERO_STATS } from "@/lib/content";
 
@@ -15,7 +16,7 @@ export function Hero() {
 
       mm.add(MOTION_OK, () => {
         // Intro timeline — headline lines slide up out of their masks,
-        // then supporting copy and the visual settle in.
+        // then supporting copy and the photo settle in.
         const tl = gsap.timeline({
           defaults: { ease: "power4.out", duration: 1.1 },
         });
@@ -32,9 +33,15 @@ export function Hero() {
             "-=0.7",
           )
           .fromTo(
-            ".hero__panel--main, .hero__monogram",
+            ".hero__frame",
             { clipPath: "inset(100% 0 0 0)", opacity: 1 },
             { clipPath: "inset(0% 0 0 0)", duration: 1.3 },
+            0.35,
+          )
+          .fromTo(
+            ".hero__img",
+            { scale: 1.25 },
+            { scale: 1, duration: 1.6 },
             0.35,
           )
           .fromTo(
@@ -53,6 +60,17 @@ export function Hero() {
         // Gentle parallax while scrolling past the hero.
         gsap.to(".hero__panel--back", {
           yPercent: -12,
+          ease: "none",
+          scrollTrigger: {
+            trigger: scope.current,
+            start: "top top",
+            end: "bottom top",
+            scrub: 0.6,
+          },
+        });
+
+        gsap.to(".hero__img", {
+          yPercent: 8,
           ease: "none",
           scrollTrigger: {
             trigger: scope.current,
@@ -108,14 +126,18 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="hero__visual" aria-hidden="true">
+        <div className="hero__visual">
           <div className="hero__panel hero__panel--back" data-reveal />
-          <div className="hero__panel hero__panel--main" data-reveal />
-          <div className="hero__monogram" data-reveal>
-            <div>
-              <strong>Nuraya</strong>
-              <span>Est. 2021 — Indonesia</span>
-            </div>
+          <div className="hero__frame" data-reveal>
+            <Image
+              className="hero__img"
+              src="/images/hero.jpg"
+              alt="Model mengenakan hijab silk berwarna rose dengan gaya anggun"
+              fill
+              priority
+              fetchPriority="high"
+              sizes="(min-width: 900px) 38vw, 92vw"
+            />
           </div>
           <div className="hero__badge" data-reveal>
             <b>4.9★</b> dari 32.000+ ulasan
